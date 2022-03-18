@@ -76,6 +76,7 @@ Tipo de sistema	Sistema operativo de 64 bits, procesador basado en x64
 
 
 # 3. Conclusiones
+Gracias a esta tarea se pudo poner en práctica la creación de un analizador de espectros simple para audios por medio del lenguaje de programación Python. La tarea permite profundizar los conceptos de señales y ondas mediante el uso de módulos de software que implementan la transformada de Fourier, y así transformar por medio de una grafica, las señales entre el dominio del tiempo y el dominio de la frecuencia, lo cual permite evidenciar y entender su comportamiento. Así mismo extraer armónicos específicos para generar tonos de audio para poder analizarlos.
 
 
 # 4. Referencias
