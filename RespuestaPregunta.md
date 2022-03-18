@@ -40,18 +40,19 @@ El sonido como tal tiene ciertas cualidades que son influenciadas por los parám
 En la siguiente tabla se puede ver el nivel de dependencia entre las cualidades y los parámetros físicos.
 
 
-AQUI
+![](https://github.com/Francmata/-202201-IC7602---Francisco-Mata-Andres-Ramirez-David-Uma-a/blob/main/Tabla.jpg)
+
 
 En el caso de las voces de los integrantes de los equipos ocurre exactamente lo mismo, los parámetros físicos generados principalmente por las diferencias de las cuerdas vocales, también algo a destacar es que los armónicos determinan el timbre de la voz lo que nos permite diferenciar las 3 voces,  todo esto sumado provoca que las ondas sean distintas como se puede ver en las siguientes imágenes. 
 
 
-
+Voz del integrante David
 ![Voz de David](https://github.com/Francmata/-202201-IC7602---Francisco-Mata-Andres-Ramirez-David-Uma-a/blob/main/Grafica%20David.jpg)
 
-
+Voz del integrante Francisco
 ![Voz de Francisco](https://github.com/Francmata/-202201-IC7602---Francisco-Mata-Andres-Ramirez-David-Uma-a/blob/main/Grafica%20Francisco.jpg)
 
-
+Voz del integrande Andrés
 ![Voz de Andrés](https://github.com/Francmata/-202201-IC7602---Francisco-Mata-Andres-Ramirez-David-Uma-a/blob/main/Grafica%20Andres.jpg)
 
 
