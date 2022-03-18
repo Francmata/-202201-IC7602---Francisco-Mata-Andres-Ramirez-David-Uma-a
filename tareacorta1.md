@@ -56,7 +56,7 @@ El comportamiento de las radiaciones electromagnéticas depende de su longitud d
 ## 2.4 Diagrama del programa
 
 
-![](https://github.com/Francmata/-202201-IC7602---Francisco-Mata-Andres-Ramirez-David-Uma-a/blob/main/diagram.jpg){width='100px'}
+![](https://github.com/Francmata/-202201-IC7602---Francisco-Mata-Andres-Ramirez-David-Uma-a/blob/main/diagram.jpg)
 
 
 ## 2.5 Ambiente de desarrollo
