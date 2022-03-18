@@ -47,12 +47,15 @@ En el caso de las voces de los integrantes de los equipos ocurre exactamente lo 
 
 
 Voz del integrante David
+
 ![Voz de David](https://github.com/Francmata/-202201-IC7602---Francisco-Mata-Andres-Ramirez-David-Uma-a/blob/main/Grafica%20David.jpg)
 
 Voz del integrante Francisco
+
 ![Voz de Francisco](https://github.com/Francmata/-202201-IC7602---Francisco-Mata-Andres-Ramirez-David-Uma-a/blob/main/Grafica%20Francisco.jpg)
 
 Voz del integrande Andrés
+
 ![Voz de Andrés](https://github.com/Francmata/-202201-IC7602---Francisco-Mata-Andres-Ramirez-David-Uma-a/blob/main/Grafica%20Andres.jpg)
 
 
