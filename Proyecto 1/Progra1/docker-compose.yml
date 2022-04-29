@@ -1,0 +1,85 @@
+version: '3'
+services:
+
+  cliente:
+    build: 
+      context: ./cliente
+      dockerfile: Dockerfile
+    container_name: clienteUbuntu
+    restart: on-failure
+    command: ["sleep","infinity"]
+    networks:
+      - vlan1
+
+  # openvpn:
+  #   build: 
+  #     context: ./openvpn-data
+  #     dockerfile: Dockerfile
+  #   cap_add:
+  #     - NET_ADMIN
+  #   container_name: openvpn
+  #   ports:
+  #     - "1194:1194/udp"
+  #   restart: always
+  #   volumes:
+  #     - ./openvpn-data/conf:/etc/openvpn
+
+  webserver1:
+    build: 
+      context: ./WebServer1
+      dockerfile: Dockerfile
+    container_name: WebServer1
+    ports:
+      - 8080:80
+    restart: on-failure
+    networks:
+      - vlan1
+
+
+  webserver2:
+    build: 
+      context: ./WebServer2
+      dockerfile: Dockerfile
+    container_name: WebServer2
+    ports:
+      - 8081:80
+    restart: on-failure
+    networks:
+      - vlan2
+
+  revprox:
+    restart: always
+    build: 
+      context: ./reverseproxy
+      dockerfile: Dockerfile
+    container_name: revprox-svc
+    ports:
+      - 80:80
+    links:
+      - webserver1:webserver1
+      - webserver2:webserver2
+    
+
+volumes:
+  cliente: {}
+  WebServer1: {}
+  WebServer2: {}
+  dns: {}
+  reverseproxy: {}
+  vpn: {}
+
+
+networks:
+  vlan1:
+    name: vLan1
+    driver: bridge
+    ipam:
+      driver: default
+
+  vlan2:
+    name: vLan2
+    driver: bridge
+    ipam:
+      driver: default
+
+  
